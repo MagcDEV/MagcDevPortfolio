@@ -85,7 +85,7 @@ export default function Home() {
         </section>
         <section>
           <div className="mt-2">
-            <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Software developer with experience in technologies like
               JavaScript, ReactJS, NextJS and Node.js, I create websites and web
