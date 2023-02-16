@@ -160,7 +160,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Hera are some of my personal projecs where I use technologies like
+              Here are some of my personal projecs where I use technologies like
               ReactJS, NextJS, Tailwindcss, Node.js and more
             </p>
           </div>
