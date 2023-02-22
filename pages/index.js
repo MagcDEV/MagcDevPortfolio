@@ -18,6 +18,8 @@ import web5 from "../public/web2.jpg";
 import web6 from "../public/web2.jpg";
 import { useState } from "react";
 import Link from "next/link";
+import reactLogo from "./../public/react.svg";
+import "./../styles/Home.module.css";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -56,6 +58,14 @@ export default function Home() {
               Manuel Guevara
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Full Stack Developer</h3>
+            <div className=" w-36 mx-auto h-36 relative">
+              <Image
+              fill
+                src={reactLogo}
+                className="animate-spin-slow"
+                alt="React logo"
+              />
+            </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-lg max-w-xl mx-auto">
               Developer ReactJS | Javascript | NextJS | Node.js. Lets check my
               work down below!
