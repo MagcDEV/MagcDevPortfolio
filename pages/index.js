@@ -13,6 +13,14 @@ import consulting from "../public/consulting.png";
 import web1 from "../public/web1.png";
 import commitHistory from "../public/commitHistory.png";
 import web3 from "../public/web2.jpg";
+import ReactBadge from "../public/ReactBadge.png";
+import NodeBadge from "../public/NodeBadge.png";
+import MySqlBadge from "../public/MySqlBadge.png";
+import TypescriptBadge from "../public/TypescriptBadge.png";
+import PythonBadge from "../public/PythonBadge.png";
+import PostgresBadge from "../public/PostgresBadge.png";
+import MogoDbBadge from "../public/MogoDbBadge.png";
+import JavaBadge from "../public/JavaBadge.png";
 import web4 from "../public/web2.jpg";
 import web5 from "../public/web2.jpg";
 import web6 from "../public/web2.jpg";
@@ -129,11 +137,10 @@ export default function Home() {
                   width={100}
                   height={40}
                   src={
-                    "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+                    ReactBadge
                   }
                 />
               </div>
-
             </div>
             <div className=" md:w-1/3 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
@@ -156,7 +163,7 @@ export default function Home() {
                   width={100}
                   height={40}
                   src={
-                    "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+                    NodeBadge
                   }
                 />
               </div>
@@ -166,7 +173,7 @@ export default function Home() {
                   width={100}
                   height={40}
                   src={
-                    "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+                    TypescriptBadge
                   }
                 />
               </div>
@@ -176,7 +183,7 @@ export default function Home() {
                   width={100}
                   height={40}
                   src={
-                    "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+                    PythonBadge
                   }
                 />
               </div>
@@ -186,7 +193,7 @@ export default function Home() {
                   width={70}
                   height={40}
                   src={
-                    "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"
+                    JavaBadge
                   }
                 />
               </div>
@@ -212,7 +219,7 @@ export default function Home() {
                   width={120}
                   height={80}
                   src={
-                    "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+                    MogoDbBadge
                   }
                 />
               </div>
@@ -222,7 +229,7 @@ export default function Home() {
                   width={120}
                   height={80}
                   src={
-                    "https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white"
+                    MySqlBadge
                   }
                 />
               </div>
@@ -232,11 +239,10 @@ export default function Home() {
                   width={120}
                   height={80}
                   src={
-                    "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+                    PostgresBadge
                   }
                 />
               </div>
-
             </div>
           </div>
         </section>
