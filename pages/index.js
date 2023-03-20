@@ -11,7 +11,7 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import web1 from "../public/web1.png";
-import web2 from "../public/web2.jpg";
+import commitHistory from "../public/commitHistory.png";
 import web3 from "../public/web2.jpg";
 import web4 from "../public/web2.jpg";
 import web5 from "../public/web2.jpg";
@@ -60,7 +60,7 @@ export default function Home() {
             <h3 className="text-2xl py-2 md:text-3xl">Full Stack Developer</h3>
             <div className=" w-36 mx-auto h-36 relative">
               <Image
-              fill
+                fill
                 src={reactLogo}
                 className="animate-spin-slow"
                 alt="React logo"
@@ -123,7 +123,17 @@ export default function Home() {
                 using the latest technologies
               </p>
               <h4 className="py-4 text-teal-600">Front End Tools</h4>
-              <p className=" text-gray-800 py-1">ReactJS</p>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="Reactjs"
+                  width={100}
+                  height={40}
+                  src={
+                    "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+                  }
+                />
+              </div>
+
             </div>
             <div className=" md:w-1/3 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
@@ -140,10 +150,46 @@ export default function Home() {
                 Creating full stack web aplications like APIs
               </p>
               <h4 className="py-4 text-teal-600">Back End Tools</h4>
-              <p className=" text-gray-800 py-1">Node.js</p>
-              <p className=" text-gray-800 py-1">Typescript</p>
-              <p className=" text-gray-800 py-1">Python</p>
-              <p className=" text-gray-800 py-1">Java (Spring Boot)</p>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="Nodejs"
+                  width={100}
+                  height={40}
+                  src={
+                    "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+                  }
+                />
+              </div>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="Typescript"
+                  width={100}
+                  height={40}
+                  src={
+                    "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+                  }
+                />
+              </div>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="Python"
+                  width={100}
+                  height={40}
+                  src={
+                    "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+                  }
+                />
+              </div>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="Java"
+                  width={70}
+                  height={40}
+                  src={
+                    "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"
+                  }
+                />
+              </div>
             </div>
             <div className=" md:w-1/3 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
@@ -160,9 +206,37 @@ export default function Home() {
                 Creating and configuring databases for web aplications
               </p>
               <h4 className="py-4 text-teal-600">DB Tools</h4>
-              <p className=" text-gray-800 py-1">MongoDB</p>
-              <p className=" text-gray-800 py-1">SQL</p>
-              <p className=" text-gray-800 py-1">Postgres</p>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="Mogodb"
+                  width={120}
+                  height={80}
+                  src={
+                    "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+                  }
+                />
+              </div>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="My SQL Server"
+                  width={120}
+                  height={80}
+                  src={
+                    "https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white"
+                  }
+                />
+              </div>
+              <div className=" flex justify-center text-gray-800 py-1">
+                <Image
+                  alt="Postgres"
+                  width={120}
+                  height={80}
+                  src={
+                    "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+                  }
+                />
+              </div>
+
             </div>
           </div>
         </section>
@@ -212,13 +286,37 @@ export default function Home() {
             </div>
             <div className=" basis-1/3 flex-1">
               <Image
-                src={web2}
+                src={commitHistory}
                 alt="pro"
                 className=" rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 responsive
               />
+              <div className="mt-5">
+                <p className="m-2 dark:text-white">
+                  Explore de commimt history of this repo
+                </p>
+                <div className="flex">
+                  <Link
+                    target="_blank"
+                    className="m-2 text-teal-500 font-bold dark:text-white"
+                    href="https://github.com/MagcDEV/fulltime-test"
+                  >
+                    Github
+                  </Link>
+                  <div className="my-auto dark:text-white">
+                    <AiFillGithub />
+                  </div>
+                </div>
+                <Link
+                  target="_blank"
+                  className="m-2 text-teal-500 font-bold"
+                  href="https://commit-history.netlify.app/"
+                >
+                  Check it out!
+                </Link>
+              </div>
             </div>
             <div className=" basis-1/3 flex-1">
               <Image
