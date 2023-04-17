@@ -132,14 +132,7 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">Front End Tools</h4>
               <div className=" flex justify-center text-gray-800 py-1">
-                <Image
-                  alt="Reactjs"
-                  width={100}
-                  height={40}
-                  src={
-                    ReactBadge
-                  }
-                />
+                <Image alt="Reactjs" width={100} height={40} src={ReactBadge} />
               </div>
             </div>
             <div className=" md:w-1/3 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
@@ -158,44 +151,21 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">Back End Tools</h4>
               <div className=" flex justify-center text-gray-800 py-1">
-                <Image
-                  alt="Nodejs"
-                  width={100}
-                  height={40}
-                  src={
-                    NodeBadge
-                  }
-                />
+                <Image alt="Nodejs" width={100} height={40} src={NodeBadge} />
               </div>
               <div className=" flex justify-center text-gray-800 py-1">
                 <Image
                   alt="Typescript"
                   width={100}
                   height={40}
-                  src={
-                    TypescriptBadge
-                  }
+                  src={TypescriptBadge}
                 />
               </div>
               <div className=" flex justify-center text-gray-800 py-1">
-                <Image
-                  alt="Python"
-                  width={100}
-                  height={40}
-                  src={
-                    PythonBadge
-                  }
-                />
+                <Image alt="Python" width={100} height={40} src={PythonBadge} />
               </div>
               <div className=" flex justify-center text-gray-800 py-1">
-                <Image
-                  alt="Java"
-                  width={70}
-                  height={40}
-                  src={
-                    JavaBadge
-                  }
-                />
+                <Image alt="Java" width={70} height={40} src={JavaBadge} />
               </div>
             </div>
             <div className=" md:w-1/3 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
@@ -214,23 +184,14 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">DB Tools</h4>
               <div className=" flex justify-center text-gray-800 py-1">
-                <Image
-                  alt="Mogodb"
-                  width={120}
-                  height={80}
-                  src={
-                    MogoDbBadge
-                  }
-                />
+                <Image alt="Mogodb" width={120} height={80} src={MogoDbBadge} />
               </div>
               <div className=" flex justify-center text-gray-800 py-1">
                 <Image
                   alt="My SQL Server"
                   width={120}
                   height={80}
-                  src={
-                    MySqlBadge
-                  }
+                  src={MySqlBadge}
                 />
               </div>
               <div className=" flex justify-center text-gray-800 py-1">
@@ -238,9 +199,7 @@ export default function Home() {
                   alt="Postgres"
                   width={120}
                   height={80}
-                  src={
-                    PostgresBadge
-                  }
+                  src={PostgresBadge}
                 />
               </div>
             </div>
@@ -255,75 +214,6 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={web1}
-                alt="pro"
-                className=" rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                responsive
-              />
-              <div className="mt-5">
-                <p className="m-2 dark:text-white">
-                  Browse the marvel API and find your favorite character with my
-                  app.
-                </p>
-                <div className="flex">
-                  <Link
-                    target="_blank"
-                    className="m-2 text-teal-500 font-bold dark:text-white"
-                    href="https://github.com/MagcDEV/MarvelHeroes"
-                  >
-                    Github
-                  </Link>
-                  <div className="my-auto dark:text-white">
-                    <AiFillGithub />
-                  </div>
-                </div>
-                <Link
-                  target="_blank"
-                  className="m-2 text-teal-500 font-bold"
-                  href="https://heroic-granita-7310fe.netlify.app"
-                >
-                  Check it out!
-                </Link>
-              </div>
-            </div>
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={commitHistory}
-                alt="pro"
-                className=" rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                responsive
-              />
-              <div className="mt-5">
-                <p className="m-2 dark:text-white">
-                  Explore de commimt history of this repo
-                </p>
-                <div className="flex">
-                  <Link
-                    target="_blank"
-                    className="m-2 text-teal-500 font-bold dark:text-white"
-                    href="https://github.com/MagcDEV/fulltime-test"
-                  >
-                    Github
-                  </Link>
-                  <div className="my-auto dark:text-white">
-                    <AiFillGithub />
-                  </div>
-                </div>
-                <Link
-                  target="_blank"
-                  className="m-2 text-teal-500 font-bold"
-                  href="https://commit-history.netlify.app/"
-                >
-                  Check it out!
-                </Link>
-              </div>
-            </div>
             <div className=" basis-1/3 flex-1">
               <Image
                 src={web3}
