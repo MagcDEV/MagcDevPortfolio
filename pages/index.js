@@ -112,6 +112,13 @@ export default function Home() {
               highly adaptable to new challenges and technologies, making me a
               valuable asset to any development team.
             </p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              I consider myself an excellent team player in addition to my
+              technical skills. I believe in collaborating and working closely
+              with my team members to ensure that the project is completed on
+              time and within budget. I am good at communicating and always
+              willing to share what I know and know how with others.
+            </p>
           </div>
           <div className="lg:flex gap-10">
             <div className=" md:w-1/3 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
