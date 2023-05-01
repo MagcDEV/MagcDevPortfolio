@@ -105,13 +105,12 @@ export default function Home() {
           <div className="mt-2">
             <h3 className="text-3xl py-1 dark:text-white">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Software developer with experience in technologies like
-              JavaScript, ReactJS, NextJS and Node.js, I create websites and web
-              applications with a focus on responsive design and functionality.
-              I consider myself a fast learner and highly adaptable to new
-              challenges and technologies, I have experience in 100% remote and
-              face-to-face work, I also have experience using project management
-              software such as Jira and Clickup.
+              Full-stack developer with over 5 years of experience in
+              developing, testing and maintaining software systems. I bring
+              expertise in a range of technologies including JavaScript,
+              ReactJS, Node.js and Java. I consider myself a quick learner and
+              highly adaptable to new challenges and technologies, making me a
+              valuable asset to any development team.
             </p>
           </div>
           <div className="lg:flex gap-10">
